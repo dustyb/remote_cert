@@ -1,5 +1,4 @@
-# remote_cert
-SSL Grabber
+# SSL Grabber
 
 Allows you to obtain the SSL cert of a remote server. 
 
