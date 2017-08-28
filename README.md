@@ -2,12 +2,12 @@
 
 Allows you to obtain the SSL cert of a remote server. 
 
-###SSL Grabber Usage
+### SSL Grabber Usage
 ```bash
 ./ssh_grabber.sh <serverIP or hostname> <hostname:port> <filename.pem>
 ```
 
-###SSL Grabber Example
+### SSL Grabber Example
 ```bash
 ./ssl_grabber.sh www.ethicalhackers.co.za www.ethicalhackers.co.za:443 ehackers_cert.pem
 depth=2 O = Digital Signature Trust Co., CN = DST Root CA X3
@@ -20,12 +20,12 @@ DONE
 ```
 
 
-###SSL Info Usage
+### SSL Info Usage
 ```bash
 ./ssl_info.sh www.ethicalhackers.co.za:443
 ```
 
-###SSL Info Example
+### SSL Info Example
 ```bash
 ./ssl_info.sh www.ethicalhackers.co.za:443
 CONNECTED(00000003)
