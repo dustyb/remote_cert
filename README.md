@@ -1,3 +1,14 @@
+# SSL Expiry Check
+
+Allows you to quickly check the exacct expiry date and amount of days left before expiry from current day. 
+
+### SSL Expiry Usage
+```bash
+./python ssl_expiry_checker.py www.google.com
+Expires on: 2018 5 15
+62 days left
+```
+
 # SSL Grabber & SSL Info
 
 Allows you to obtain the SSL cert of a remote server. 
